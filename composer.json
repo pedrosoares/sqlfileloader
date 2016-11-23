@@ -14,7 +14,7 @@
     "autoload": {
         "files": ["src/autoload.php"],
         "psr-4": {
-          "VideoConverter\\WebPlayer\\": "src/SqlFileLoader/"
+          "PedroSoares\\SqlFileLoader\\": "src/SqlFileLoader/"
         }
     }
 }

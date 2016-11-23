@@ -7,5 +7,4 @@ if(defined('sqlfileloader_init_autoloader')){
 
 define("sqlfileloader_init_autoloader", true);
 
-require_once("SqlFileLoader/Converter.php");
-require_once("SqlFileLoader/VideoFile.php");
+require_once("SqlFileLoader/SqlFileLoader.php");
