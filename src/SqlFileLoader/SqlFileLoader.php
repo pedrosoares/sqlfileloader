@@ -38,7 +38,7 @@ class SqlFileLoader {
 
     //Function to return migration PAth with File
     public static function MIGRATION($filepath){
-        return "database/migrations".$filepath;
+        return "database/migrations/".$filepath;
     }
 
     //Function resposable to remove comments of SQL block
