@@ -1,0 +1,20 @@
+{
+    "name": "pedrosoares/sqlfileloader",
+    "description": "Manipulate SQL files.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Augusto da Silva Soares",
+            "email": "contato@pedrosoares.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "files": ["src/autoload.php"],
+        "psr-4": {
+          "VideoConverter\\WebPlayer\\": "src/SqlFileLoader/"
+        }
+    }
+}
