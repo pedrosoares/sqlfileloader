@@ -1,5 +1,5 @@
 # SqlFileLoader
-Read SQL file, remove all vomentarys and separete each command for manipulation.
+Read the SQL file, remove all comments, and separate each command for manipulation.
 # Instation
 Put in your composer file the command bellow.
 ```
